@@ -1,0 +1,104 @@
+body {
+    background: url(/Users/brettrowe/Desktop/TriviaGame/assets/images/movie-theater-wallpaper-7.jpg) no-repeat center center fixed; 
+    font-family: 'Filmotype' cursive;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+h1 {
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(15, 159, 255);
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 5px double #5f0303;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px
+  }
+  
+img {
+    height: 250px;
+    width: 300px;
+    border: 2px  #6b0101 solid;
+    border-radius: 25px;
+  }
+  
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #800202;
+    color: white;
+    font-size: 20px ;
+    border-radius: 4px;
+  }
+  
+button:hover {
+    transform: scale(1.1);
+    border: 3px black solid;
+    box-shadow: 0 0 1rem rgb(107, 3, 3);
+    background-color: rgba(85, 3, 3, 0.822);
+    color: black;
+  }
+  
+#start {
+    vertical-align: middle;
+    transform: translate(0, 150%);
+    height: 100px;
+    width: 200px;
+    font-size: 60px;
+  }
+  
+#content {
+    color: rgb(15, 159, 225);
+    position: relative;
+    height: 600px;
+    border: 5px #5e0202 solid;
+    border-radius: 25px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 3px 3px 20px 6px rgb(226, 12, 12);
+    padding-bottom: 20px;
+  }
+  
+#content::after {
+    content: "";
+    background-image: url("../images/wave-off-kanagawa.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+  }
+  
+#question-area {
+    padding-left: 10px;
+    padding-right: 10px
+  }
+  
+.message-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  
+  
+@media screen and (max-width: 640px) {
+    #content {
+      height: 700px;
+    }
+  
+img {
+      height: 200px;
+      width: 250px;
+    }
+  }
