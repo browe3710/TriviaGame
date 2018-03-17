@@ -1,6 +1,6 @@
 
 body {
-     background-image: url(https://wallpapercave.com/wp/3g1KBDE.jpg)50% no-repeat center center fixed;
+    background: url('../images/curtain.jpg') no-repeat center center fixed;
     font-family: 'Filmotype' cursive;
     -webkit-background-size: cover;
     -moz-background-size: cover;
