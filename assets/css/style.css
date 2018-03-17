@@ -1,12 +1,17 @@
+
 body {
-     background-image: url(https://wallpapercave.com/wp/3g1KBDE.jpg);
+     background-image: url(https://wallpapercave.com/wp/3g1KBDE.jpg)50% no-repeat center center fixed;
     font-family: 'Filmotype' cursive;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
-  
+    background-position: center, center;
+    height: 100%;
+    overflow: hidden;
+}
+
+
   
 h1 {
     font-weight: bold;
